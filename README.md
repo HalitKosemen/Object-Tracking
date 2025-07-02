@@ -2,4 +2,4 @@
 
 This project is a continuation of the position estimation system and involves transmitting the predicted object position to an STM32 microcontroller via USB communication protocol. Using the received (x, y) position data, the STM32 determines the object's location relative to the center of the camera frame. To align the camera’s center with the object's midpoint, two motors controlling the x and y axes are operated. The motor speed is proportional to the object's distance from the camera center; for instance, when the object is at the far edge of the frame, the motors run at maximum speed. As the object approaches the center, the motor speed gradually decreases, and the motors stop once the object is precisely aligned with the camera center. This enables effective and precise real-time stabilization of the object at the center of the camera view.
 
-![image url]()
+![image url](https://github.com/HalitKosemen/Object-Tracking/blob/02cb0b5e981d09fd2d4475af4534f19a539ec81c/Obje_Tracking/Project_Picture/system_respons.JPG)
